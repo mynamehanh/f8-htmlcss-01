@@ -167,8 +167,13 @@ a {
 .client .images {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
   margin-top: 70px;
+}
+
+.client .images a {
+  display: flex;
+  align-items: center;
 }
 
 /* ============= Guides =============  */
